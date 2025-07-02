@@ -11,6 +11,9 @@ RUN npm ci
 # アプリケーションのソースコードをコピー
 COPY . .
 
+# Prismaクライアントを生成
+RUN npx prisma generate
+
 # ポート3000を公開
 EXPOSE 3000
 

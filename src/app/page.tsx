@@ -5,15 +5,13 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            SDD-FV Prototype
-          </h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">FanVoice AI</h1>
           <p className="text-xl text-gray-600">
             アニメ作品のバズ検知・AI相談システム
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-col gap-6">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-3">
               作品管理
